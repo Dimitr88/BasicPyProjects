@@ -15,10 +15,10 @@ print(f'required number of school desks: ({first_class //2} + {first_class %2} =
 
 #Task 3
 N = int(input('Enter integer: '))
-b1 = int((N/10 - int(N/10))*10)
-b2 = int((N/100 - int(N/100))*10)
-b3 = int((N/1000 - int(N/1000))*10)
-y = b1*100 + b2*10 + b3
+b1 = int(N%10)*100
+b2 = int(N//10%10)*10
+b3 = int(N//100)
+y = b1 + b2 + b3
 print(y)
 
 #Task 4
