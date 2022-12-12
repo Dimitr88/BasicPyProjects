@@ -15,13 +15,11 @@ print(f'required number of school desks: ({first_class //2} + {first_class %2} =
 
 #Task 3
 N = int(input('Enter integer: '))
-print(type(int(f'{N%10}'
-      f'{N//10%10}'
-      f'{N//100}')),
-      (int(f'{N % 10}'
-            f'{N // 10 % 10}'
-            f'{N // 100}'))
-      )
+b1 = int((N/10 - int(N/10))*10)
+b2 = int((N/100 - int(N/100))*10)
+b3 = int((N/1000 - int(N/1000))*10)
+y = b1*100 + b2*10 + b3
+print(y)
 
 #Task 4
 N = int(input('Enter integer: '))
