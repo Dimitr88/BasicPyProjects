@@ -23,8 +23,9 @@ print(y)
 
 #Task 4
 N = int(input('Enter integer: '))
-Hours = N//3600
-S = N%3600
-Minutes = S//60
-Seconds = N%60
-print(Hours,str(':'),Minutes,str(':'),Seconds)
+seconds = N % 60
+N= N//60
+minutes = N%60
+N= N//60
+hours = N%24
+print('{}:{:02}:{:02}'.format(hours, minutes, seconds))
