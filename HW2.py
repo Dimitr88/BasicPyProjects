@@ -23,7 +23,7 @@ print(y)
 
 #Task 4
 N = int(input('Enter integer: '))
-Hours = N//3600
+Hours = N//3600%24
 S = N%3600
 Minutes = S//60
 Seconds = N%60
