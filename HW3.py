@@ -21,16 +21,12 @@ print()
 #Task3
 
 Number = int(input('Enter: '))
-x=0
-for i in range(1, Number+1):
+for i in range(2, Number-1):
    if Number%i==0:
-    x+=1
-if x==2:
-    print(Number, 'is a prime')
-elif x > 2:
-    print (Number, 'is not a prime')
+       print(Number, 'is not a prime')
+       break
 else:
-    print ('Error')
+    print(Number, 'is a prime')
 
 #Task4 in progress, have no time
 
