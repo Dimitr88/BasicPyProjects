@@ -31,3 +31,8 @@ else:
 #Task4 in progress, have no time
 
 
+for i in range (heigh):
+    print(' '*(heigh - i), '*', i*'**', sep='')
+for i in reversed(range(heigh-2)):
+    print((heigh - i - 1)*' ',  '*', int((i*2+1)/2)*' ','*',int((i*2+1)/2)*' ', '*', sep='')
+print (heigh*' ', '*',sep='')
