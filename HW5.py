@@ -13,6 +13,7 @@ for n in my_list:
 for n in my_result:
     print(n, end=' ')
 print()
+
 #Task3
 
 if len(my_list) >= 2:
