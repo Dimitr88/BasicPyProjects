@@ -1,3 +1,4 @@
+#Task1
 my_string = '0123456789'
 result = []
 
@@ -7,6 +8,7 @@ for symbol_1 in my_string:
 
 print(result)
 
+#Task2
 
 height = int(input('Enter height: '))
 
