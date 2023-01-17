@@ -22,7 +22,7 @@ apples = int(input('Enter number of apples: '))
 pupils = int(input('Enter number of pupils: '))
 print(f'Number of apples for each pupil: {apples} / {pupils} = {apples // pupils}')
 print(f'Number of apples in the backet: {apples} % {pupils} = {apples % pupils}')
-
+#fixed
 #Task 2
 first_class = int(input('Enter number of pupils for the first class: '))
 second_class = int(input('Enter number of pupils for the second class: '))
