@@ -11,8 +11,7 @@ print(result)
 
 height = int(input('Enter height: '))
 
-for i in range (height):
-    print(' '*(height - i), '*', i*'**', sep='')
-
-for i in range (height):
-    print(' ' * (height - i), '*', i*' *', sep='')
+for i in range(height):
+    for g in range(i+1):
+        print('*', end='')
+    print()
